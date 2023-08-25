@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ddaeae; /* Change this color to your desired background color */
+}
+
+.form-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%; /* Set all input fields to 100% width */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: red;
+}
