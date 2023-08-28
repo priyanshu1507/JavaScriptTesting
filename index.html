@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="form-container">
-        <h2><center>User Information Form</center></h2>
+        <h2>User Information Form</h2>
         <form action="process_form.php" method="post" onsubmit="return validateEmail();">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required placeholder="John Doe"><br><br>
@@ -22,7 +22,7 @@
             <input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br><br>
             
             <label for="gender">Gender:</label>
-            <select id="gender" name="gender" required style="width: 100%";>
+            <select id="gender" name="gender" required style="width: 10%;">
                 <option value="" disabled selected style="display:none;">Choose</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
@@ -31,7 +31,7 @@
                 <option value="Gay">Gay</option>
             </select><br><br>
             
-           <center><input type="submit" value="Submit" style = "width: 50%;">  </center> 
+            <input type="submit" value="Submit">
         </form>
     </div>
     <script src="script.js"></script>

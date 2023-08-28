@@ -19,4 +19,6 @@ function validateEmail() {
     }
 
     return true;
+
+    
 }
